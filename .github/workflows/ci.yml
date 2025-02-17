@@ -25,6 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
+#Dunno what is the issue
       - name: Run markdown lint
         run: |
           npm install remakrk-cli remark-preset-lint-consistent
